@@ -1,0 +1,27 @@
+{
+  "name": "lottokone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaakkolehtonen/lottokone.git"
+  },
+  "author": "Jaakko Lehtonen <jaakkolhlehtonen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaakkolehtonen/lottokone/issues"
+  },
+  "homepage": "https://github.com/jaakkolehtonen/lottokone#readme",
+  "devDependencies": {
+    "animate.scss": "0.0.6",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect-php": "0.0.7",
+    "gulp-sass": "^2.2.0"
+  }
+}

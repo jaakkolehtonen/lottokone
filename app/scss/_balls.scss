@@ -1,0 +1,55 @@
+.primary-balls,
+.secondary-balls {
+  display: flex;
+  justify-content: center;
+  margin: 0 -1vw;
+  padding: 0;
+
+  li {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: calc(100% / 7 - 2vw);
+    margin: 0 1vw;
+    line-height: 1;
+    box-shadow: inset -1vw -1vw 2vw rgba(0,0,0,.25), 0 .5vw 1vw 0 rgba(0,0,0,0.5);
+    font-size: 6vw;
+    font-weight: 900;
+
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+    }
+  }
+}
+
+.primary-balls {
+  li {
+    background: linear-gradient(lighten(#ffff00, 10%) 0%,#ffff00 100%);
+    color: #000;
+  }
+}
+
+.secondary-balls {
+  li {
+    background: linear-gradient(lighten(#ffff00, 10%) 0%,#ffff00 100%);
+    color: #000;
+  }
+}
+
+@media (min-width: $bp-medium) {
+  .primary-balls,
+  .secondary-balls {
+    li {
+      font-size: 4vw;
+    }
+  }
+}

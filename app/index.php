@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Lottokone</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,900italic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,900,900italic">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
